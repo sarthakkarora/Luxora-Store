@@ -1,0 +1,368 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: #1c2228;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  border-bottom: 2px solid #455b6e;
+}
+.navbar2 {
+  position: fixed;
+  bottom: -5px;
+  width: 100%;
+  background: rgba(28, 34, 40, 0.94);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.2px);
+  -webkit-backdrop-filter: blur(7.2px);
+  border: 1px solid rgba(28, 34, 40, 0.3);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  justify-content: center;
+}
+
+a {
+  display: flex;
+  align-items: center;
+}
+
+.logo,
+.logo2 {
+  cursor: pointer;
+  width: 300px;
+  height: 60px;
+}
+
+.logo2 {
+  display: none;
+}
+
+.search-img {
+  width: 30px;
+}
+
+.search-btn {
+  position: relative;
+  background-color: #e99317;
+  border: none;
+  outline: none;
+  height: 46px;
+  width: 52px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar,
+.search-bar2 {
+  display: flex;
+  align-items: center;
+  margin-left: 120px;
+}
+
+.search-bar2 {
+  display: none;
+}
+
+.search-box {
+  height: 40px;
+  width: 325px;
+  color: white;
+  outline: none;
+  padding-left: 10px;
+  border: 2px solid #455b6e;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #2d3b47;
+  font-family: "Poppins", sans-serif;
+}
+
+.search-box::placeholder {
+  color: white;
+  opacity: 0.6;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  padding-right: 15px;
+}
+
+.wishlist {
+  cursor: pointer;
+  width: 28px;
+  transition: all 0.2s ease;
+}
+
+.cart {
+  cursor: pointer;
+  width: 28px;
+  padding: 12px;
+  border-radius: 9px;
+  filter: invert(1);
+  transition: all 0.2s ease;
+}
+
+.orders {
+  cursor: pointer;
+  width: 30px;
+  margin-right: 3px;
+  transition: all 0.2s ease;
+}
+
+.wishlist:hover,
+.cart:hover,
+.orders:hover {
+  transform: scale(1.15);
+}
+
+.default {
+  cursor: pointer;
+  margin-left: 15px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid white;
+  padding: 3px;
+}
+.list-count {
+  color: white;
+  position: relative;
+  bottom: 12px;
+  right: 10px;
+  font-size: 13px;
+  padding-top: 2px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  background-color: #e99317;
+  border-radius: 50px;
+}
+
+.cart-count {
+  color: white;
+  position: relative;
+  bottom: 12px;
+  right: 22px;
+  font-size: 13px;
+  padding-top: 2px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  background-color: #e99317;
+  border-radius: 50px;
+}
+
+.order-count {
+  color: white;
+  position: relative;
+  bottom: 12px;
+  right: 18px;
+  font-size: 13px;
+  padding-top: 2px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  background-color: #e99317;
+  border-radius: 50px;
+}
+
+.search-results {
+  z-index: 2;
+  position: fixed;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-radius: 9px;
+  left: 230px;
+  top: 85px;
+  height: auto;
+  max-height: 400px;
+  width: 450px;
+  overflow-y: scroll;
+  opacity: 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  animation: fadedown 0.25s ease;
+}
+
+@keyframes fadedown {
+  0% {
+    top: 75px;
+    opacity: 0;
+  }
+
+  100% {
+    top: 85px;
+    opacity: 1;
+  }
+}
+
+.search-results.show {
+  opacity: 1;
+}
+
+.search-results2 {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: all 0.2s ease;
+}
+
+.search-results2:hover {
+  background-color: rgba(218, 218, 218, 0.731);
+}
+
+.product-image {
+  width: 35px;
+}
+
+.product-data {
+  margin-left: 10px;
+}
+.product-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 14px;
+  margin: 0;
+}
+
+.product-desc {
+  font-family: "Poppins", sans-serif;
+  font-size: 12.6px;
+  color: rgb(62, 62, 62);
+  margin: 0;
+}
+
+.nav-link {
+  color: inherit;
+  text-decoration: none;
+}
+.lowerNav {
+  display: none;
+}
+.right-content2 {
+  display: flex;
+  align-items: center;
+  margin-right: 35px;
+}
+.right-one,
+.right-two,
+.right-three {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 990px) {
+  .search-bar {
+    margin-left: 55px;
+  }
+  .search-box {
+    width: 240px;
+  }
+  .search-results {
+    width: 372px;
+    left: 163px;
+  }
+}
+
+@media (max-width: 830px) {
+  .search-bar {
+    margin-left: 25px;
+  }
+  .search-box {
+    width: 180px;
+  }
+  .search-results {
+    width: 305px;
+    left: 135px;
+  }
+}
+
+@media (max-width: 720px) {
+  .search-bar {
+    position: absolute;
+    right: 65px;
+  }
+  .search-box {
+    width: 180px;
+  }
+  .search-results {
+    width: 267px;
+    right: 15px !important;
+    left: auto;
+    top: 80px;
+  }
+  .right-section {
+    display: none;
+  }
+  .lowerNav {
+    display: block;
+  }
+  .navbar {
+    background: rgba(28, 34, 40, 0.94);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.2px);
+    -webkit-backdrop-filter: blur(7.2px);
+    border: 1px solid rgba(28, 34, 40, 0.3);
+  }
+}
+
+@media (max-width: 450px) {
+  .logo {
+    display: none;
+  }
+  .logo2 {
+    display: block;
+    width: 45px;
+  }
+  .right-one,
+  .right-two,
+  .right-three {
+    margin-right: 12px;
+  }
+}
+
+@media (max-width: 368px) {
+  .search-box {
+    width: 115px;
+  }
+  .right-one,
+  .right-two,
+  .right-three {
+    margin: 0;
+  }
+  .search-results {
+    width: fit-content;
+    right: 15px;
+    left: 15px;
+    top: 80px;
+  }
+}
+
+@media (max-width: 290px) {
+  .search-box {
+    width: 90px;
+  }
+}

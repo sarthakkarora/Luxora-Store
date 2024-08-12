@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.poster-area {
+  background: rgb(233, 147, 23);
+  background: radial-gradient(
+    circle,
+    rgba(233, 147, 23, 1) 0%,
+    rgba(233, 125, 23, 1) 87%
+  );
+  position: relative;
+  border-radius: 20px;
+  margin-left: 220px;
+  margin-right: 220px;
+  top: 40px;
+  padding: 10px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  text-align: left;
+}
+
+.poster-head {
+  font-size: 39px;
+  font-family: "Noto Sans", sans-serif;
+  color: white;
+}
+
+.poster-desc {
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  width: 28%;
+  color: white;
+}
+
+.poster-data {
+  position: relative;
+  bottom: 18px;
+  animation: animate1 0.4s ease;
+}
+
+@keyframes animate1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.browse-btn {
+  cursor: pointer;
+  background-color: white;
+  border-radius: 40px;
+  color: rgb(233, 147, 23);
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.13) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.088) 0px 8px 16px -8px;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  padding: 15px;
+  animation: animate1 0.4s ease;
+  transition: all 0.16s ease;
+}
+
+.browse-btn:hover {
+  transform: scale(1.04);
+}
+
+.browse-btn:active {
+  transform: scale(1);
+}
+
+.delivery {
+  position: absolute;
+  width: 400px;
+  right: 250px;
+  top: 95px;
+  animation: float 0.6s ease-out;
+}
+
+@keyframes float {
+  0% {
+    top: 120px;
+    opacity: 0;
+  }
+
+  100% {
+    top: 95px;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1200px) {
+  .delivery {
+    top: 121px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .delivery {
+    display: none;
+  }
+
+  .poster-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .poster-head {
+    text-align: center;
+  }
+  .poster-desc {
+    width: fit-content;
+    text-align: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .poster-head {
+    font-size: 28px;
+  }
+  .poster-desc {
+    font-size: 14px;
+  }
+  .poster-desc > b {
+    font-size: 17px;
+  }
+  .browse-btn {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 300px) {
+  .poster-area {
+    margin-left: 17px;
+    margin-right: 17px;
+  }
+}
