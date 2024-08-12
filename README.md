@@ -5,7 +5,7 @@ Luxora is a modern eCommerce application designed with a sleek user interface an
 ### Demo Video
 Watch the demo video below to see Luxora in action:
 
-https://drive.google.com/file/d/1mKvxrtYk5vlxbaJRdgg1YX7JNUuaGjU8/view?usp=sharing
+https://drive.google.com/file/d/12O4TzKMzUawwtSVZ-FwkZ0_tcTZSXAsB/view?usp=sharing
 
 ### Key Features:
 - **Wishlist Management:** Easily add and manage products in your wishlist.
