@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@800&display=swap");
+
+.popular {
+  position: relative;
+  top: 80px;
+  left: 34px;
+  width: 96%;
+}
+
+.popular-head {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  color: rgb(38, 38, 38);
+}
+
+.electronics,
+.jwellery,
+.men,
+.women {
+  cursor: pointer;
+  width: 50px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+.jwellery,
+.men,
+.women {
+  margin-left: 40px;
+}
+
+.popular-items {
+  display: flex;
+  margin-top: 45px;
+  justify-content: center;
+}
+
+img {
+  transition: background-color 0.3s ease;
+}
+
+/* MEDIA QUERIES  */
+
+@media (max-width: 768px) {
+  .popular {
+    width: 93%;
+  }
+}
+
+@media (max-width: 530px) {
+  .popular {
+    width: 87%;
+  }
+  .electronics,
+  .jwellery,
+  .men,
+  .women {
+    width: 38px;
+  }
+}
+
+@media (max-width: 420px) {
+  .popular {
+    width: 84%;
+  }
+  .electronics,
+  .jwellery,
+  .men,
+  .women {
+    width: 32px;
+  }
+  .popular-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 70px);
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .jwellery,
+  .men,
+  .women {
+    margin: 0;
+  }
+  .popular-head{
+    font-size: 20px;
+  }
+}

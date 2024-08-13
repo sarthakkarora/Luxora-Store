@@ -1,0 +1,129 @@
+.disclaimer-area {
+  display: flex;
+  background-color: #1c2228;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  padding: 8px;
+}
+
+.disclaimer-head {
+  font-weight: bolder;
+}
+
+.first-row,
+.second-row,
+.third-row,
+.fourth-row {
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Poppins", sans-serif;
+  flex-direction: column;
+  text-align: left;
+}
+
+.link-section,
+.link-section2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 14px;
+  color: gray;
+}
+
+.bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 16px;
+  color: black !important;
+}
+
+.luxora-img {
+  width: 180px;
+  height: 40px;
+}
+
+.extra-data {
+  background-color: #eaeaea;
+}
+
+.developer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  position: relative;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.dev-data {
+  display: flex;
+  position: relative;
+  bottom: 8px;
+  margin-left: 15px;
+  align-items: center;
+}
+
+.dev-link {
+  margin-left: 5px;
+  text-decoration: underline;
+}
+
+.link-section2 {
+  display: none;
+}
+
+/* MEDIA QUERIES  */
+
+@media (max-width: 880px) {
+  .disclaimer-area {
+    padding-left: 35px;
+    padding-right: 35px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 720px) {
+  .developer {
+    display: none;
+  }
+}
+
+@media (max-width: 680px) {
+  .link-section {
+    display: none;
+  }
+  .link-section2 {
+    display: flex;
+  }
+}
+
+@media (max-width: 420px) {
+  .disclaimer-area {
+    font-size: 14px;
+    height: 110px;
+  }
+}
+
+@media (max-width: 360px) {
+  .link-section2 {
+    flex-direction: column;
+    padding-top: 22px;
+    padding-bottom: 22px;
+  }
+  .developer {
+    padding: 0;
+    flex-direction: column;
+  }
+  .dev-data {
+    margin: 0;
+  }
+}
