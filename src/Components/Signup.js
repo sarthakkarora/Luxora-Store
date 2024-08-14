@@ -1,6 +1,6 @@
 import { React, useState } from "react";
 import "./signin.css";
-import Logo from "../imgs/hlogo.png";
+import Logo from "../imgs/rlogo.png";
 import BG1 from "../imgs/login-BG.png";
 import BG2 from "../imgs/login-BG2.png";
 import google from "../imgs/google.png";
