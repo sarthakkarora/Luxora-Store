@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Luxora-Store/static/css/main.af57bc00.css",
+    "main.js": "/Luxora-Store/static/js/main.eebe57b7.js",
+    "static/js/453.ecb3c981.chunk.js": "/Luxora-Store/static/js/453.ecb3c981.chunk.js",
+    "static/media/order-now.gif": "/Luxora-Store/static/media/order-now.0e4d0d77826a37e2fc14.gif",
+    "static/media/delivery.png": "/Luxora-Store/static/media/delivery.3a2b68f638e43a33a51b.png",
+    "static/media/login-BG.png": "/Luxora-Store/static/media/login-BG.e16ee81fd3be54f0cce6.png",
+    "static/media/login-BG2.png": "/Luxora-Store/static/media/login-BG2.b5e270f1a0e1d3dc4802.png",
+    "static/media/world.png": "/Luxora-Store/static/media/world.829d1336f17a780bf6d2.png",
+    "static/media/loading.gif": "/Luxora-Store/static/media/loading.8981e9a58e16221f8156.gif",
+    "static/media/google.png": "/Luxora-Store/static/media/google.1da0744f303eeea12821.png",
+    "static/media/hlogo.png": "/Luxora-Store/static/media/hlogo.e0691ee80a8b785be629.png",
+    "static/media/master.png": "/Luxora-Store/static/media/master.3666d2afd7cf2e283f86.png",
+    "static/media/spin.gif": "/Luxora-Store/static/media/spin.7adea3e92ead786a729e.gif",
+    "static/media/rlogo.png": "/Luxora-Store/static/media/rlogo.fce92dd7f51394960946.png",
+    "static/media/CREDC___.ttf": "/Luxora-Store/static/media/CREDC___.8d7994cdb4113aba391d.ttf",
+    "static/media/error.png": "/Luxora-Store/static/media/error.d52e3c1a21dbecc57c96.png",
+    "static/media/empty.png": "/Luxora-Store/static/media/empty.011a6ba680b0e6361a9e.png",
+    "static/media/american.png": "/Luxora-Store/static/media/american.a0820f4d0daab02389d3.png",
+    "static/media/cart-empty.png": "/Luxora-Store/static/media/cart-empty.9c5e89fb4f9511722096.png",
+    "static/media/default.png": "/Luxora-Store/static/media/default.05c1018804fdc062dd82.png",
+    "static/media/qlogo.png": "/Luxora-Store/static/media/qlogo.83865faf589d8c5565bc.png",
+    "static/media/chip.png": "/Luxora-Store/static/media/chip.994b0998f89828e056c2.png",
+    "static/media/visa2.png": "/Luxora-Store/static/media/visa2.6a78a1b076d2a0ddbff2.png",
+    "static/media/user.png": "/Luxora-Store/static/media/user.7bb7dda85aeac570535b.png",
+    "static/media/contact.png": "/Luxora-Store/static/media/contact.14b267ff6d1ffc9e40ef.png",
+    "index.html": "/Luxora-Store/index.html",
+    "main.af57bc00.css.map": "/Luxora-Store/static/css/main.af57bc00.css.map",
+    "main.eebe57b7.js.map": "/Luxora-Store/static/js/main.eebe57b7.js.map",
+    "453.ecb3c981.chunk.js.map": "/Luxora-Store/static/js/453.ecb3c981.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af57bc00.css",
+    "static/js/main.eebe57b7.js"
+  ]
+}
