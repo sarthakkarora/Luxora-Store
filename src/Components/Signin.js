@@ -25,7 +25,7 @@ function Signin() {
   const [bgLoaded, setBgLoaded] = useState(false);
   const navigate = useNavigate();
 
-  document.title = "Luxora"
+  document.title = "Luxora";
 
   const handleEmailChange = (event) => {
     setEmail(event.target.value);
@@ -94,7 +94,7 @@ function Signin() {
       <div className="signin-page">
         <div className="login-navbar">
           <div className="main-logo">
-            <img src={Logo} className="luxora-logo" />
+            <img src={Logo} className="luxora-logo" alt="Luxora Logo" />
           </div>
           <div className="signup">
             <Link to="/signup">
@@ -103,8 +103,8 @@ function Signin() {
           </div>
         </div>
         <div className="background">
-          <img src={BG1} className="BG1" onLoad={handleBgLoad} />
-          <img src={BG2} className="BG2" onLoad={handleBgLoad} />
+          <img src={BG1} className="BG1" onLoad={handleBgLoad} alt="Background 1" />
+          <img src={BG2} className="BG2" onLoad={handleBgLoad} alt="Background 2" />
         </div>
         {bgLoaded && (
           <div className="main-form">
@@ -112,7 +112,7 @@ function Signin() {
               <div className="some-text">
                 <p className="user">User Login</p>
                 <p className="user-desc">
-                  Hey, Enter your details to get sign in to your account
+                  Hey, Enter your details to sign in to your account
                 </p>
               </div>
               <div className="user-details">
@@ -129,6 +129,9 @@ function Signin() {
                 {emailError && (
                   <div className="error-message">{emailError}</div>
                 )}
+                {/* Email Hint */}
+                <p className="hint">Hint: Email: temp@gmail.com</p>
+                
                 <input
                   type="password"
                   placeholder="Passcode"
@@ -141,6 +144,9 @@ function Signin() {
                 {PasswordError && (
                   <div className="error-message">{PasswordError}</div>
                 )}
+                {/* Password Hint */}
+                <p className="hint">Hint: Passcode: temp12345</p>
+
                 <button onClick={LogInUser} className="signin-btn">
                   Sign in
                 </button>
@@ -148,7 +154,7 @@ function Signin() {
                   <p className="or">&#x2015; Or &#x2015;</p>
                   <button onClick={GoogleAuth} className="google">
                     <p>Sign in with</p>
-                    <img src={google} className="google-img" />
+                    <img src={google} className="google-img" alt="Google Logo" />
                   </button>
                 </div>
               </div>

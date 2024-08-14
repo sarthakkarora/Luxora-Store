@@ -1,12 +1,13 @@
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCwp9V5aNBu5E0SsLH1y4qJrLL8QWUKGhM",
-  authDomain: "clone-6abe8.firebaseapp.com",
-  projectId: "clone-6abe8",
-  storageBucket: "clone-6abe8.appspot.com",
-  messagingSenderId: "752575321294",
-  appId: "1:752575321294:web:061c2c5c5aeed11253ec9f"
+  apiKey: "AIzaSyBDvFsn-CblXbi7O0-DCCXxs7zwxiGIJ0I",
+  authDomain: "luxora-72e63.firebaseapp.com",
+  projectId: "luxora-72e63",
+  storageBucket: "luxora-72e63.appspot.com",
+  messagingSenderId: "21686958364",
+  appId: "1:21686958364:web:4c9174cb1d5e9abb5422d9",
+  measurementId: "G-QK25Y2QFBR"
 };
 
 // Initialize Firebase

@@ -15,7 +15,7 @@
 }
 
 .luxora-logo {
-  width: 270px;
+  width: 300px;
 }
 
 .login-navbar {
@@ -169,6 +169,14 @@
   font-size: 14px;
 }
 
+.hint {
+  color: #555;
+  font-size: 12px;  
+  margin-top: 5px;  
+  display: block;  
+}
+
+
 /* MEDIA QUERIES  */
 
 @media (max-width: 1200px) {
@@ -232,7 +240,7 @@
     justify-content: space-between;
   }
   .luxora-logo {
-    width: 110px;
+    width: 80px;
   }
   .email,
   .password,

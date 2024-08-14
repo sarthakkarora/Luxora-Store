@@ -1,18 +1,17 @@
 {
-  "name": "Luxora",
+  "name": "luxora",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "eslint-config-react-app": "^7.0.1",
-    "firebase": "^10.12.5",
+    "firebase": "^9.17.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.8.2",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "5.0.1",
     "react-toastify": "^9.1.1",
     "redux": "^4.2.1",
     "sweetalert": "^2.1.2",
@@ -21,11 +20,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build --no-eslint",
+    "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -46,14 +43,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@eslint/js": "^9.9.0",
-    "babel-jest": "^29.7.0",
-    "eslint": "^8.57.0",
-    "eslint-config-eslint": "^11.0.0",
-    "eslint-plugin-react": "^7.35.0",
     "gh-pages": "^6.1.1",
-    "globals": "^15.9.0"
-  },
-  "homepage": "https://sarthakkarora.github.io/Luxora-Store.in/"
+    "webpack-manifest-plugin": "^5.0.0"
+  }
 }

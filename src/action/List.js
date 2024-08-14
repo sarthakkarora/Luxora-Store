@@ -1,16 +1,15 @@
 const AddToList = (data) => {
-    return {
-      type: "ADD",
-      data: data,
-    };
+  return {
+    type: "ADD",
+    data: data,
+  };
 
+};
+const RemoveList = (id) => {
+  return {
+    type: "REMOVE",
+    id: id,
   };
-  const RemoveList = (id) => {
-    return {
-      type: "REMOVE",
-      id: id,
-    };
-  };
-  
-  export { AddToList, RemoveList };
-  
+};
+
+export { AddToList, RemoveList };
