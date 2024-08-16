@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Luxora-store/static/css/main.2aa4486c.css",
-    "main.js": "/Luxora-store/static/js/main.e4f7fb28.js",
+    "main.js": "/Luxora-store/static/js/main.6c2fb11e.js",
     "static/js/787.16ceb280.chunk.js": "/Luxora-store/static/js/787.16ceb280.chunk.js",
     "static/media/order-now.gif": "/Luxora-store/static/media/order-now.0e4d0d77826a37e2fc14.gif",
     "static/media/delivery.png": "/Luxora-store/static/media/delivery.3a2b68f638e43a33a51b.png",
@@ -27,11 +27,11 @@
     "static/media/contact.png": "/Luxora-store/static/media/contact.14b267ff6d1ffc9e40ef.png",
     "index.html": "/Luxora-store/index.html",
     "main.2aa4486c.css.map": "/Luxora-store/static/css/main.2aa4486c.css.map",
-    "main.e4f7fb28.js.map": "/Luxora-store/static/js/main.e4f7fb28.js.map",
+    "main.6c2fb11e.js.map": "/Luxora-store/static/js/main.6c2fb11e.js.map",
     "787.16ceb280.chunk.js.map": "/Luxora-store/static/js/787.16ceb280.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2aa4486c.css",
-    "static/js/main.e4f7fb28.js"
+    "static/js/main.6c2fb11e.js"
   ]
 }
