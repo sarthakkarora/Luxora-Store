@@ -1,7 +1,6 @@
 {
   "name": "luxora",
   "version": "0.1.0",
-  "homepage" : "https://sarthakkarora.github.io/Luxora-store",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
